@@ -3,10 +3,6 @@
 ## About
 
 Git reference sheet
-```
-```
-
-And press enter, and you'll return to where you were.
 
 ## Upload all files in a local directory to a new Git repository
 
