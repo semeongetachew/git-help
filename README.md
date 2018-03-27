@@ -153,16 +153,6 @@ More than one branch may be added to the grep. To remove all local branches exce
 ```bash
 git branch | grep -v "master\|develop" | xargs git branch -D
 ```
-
- ## Allow Empty Commit 
- 
- Fix the problem of git hooks claiming everything is "Up-to-date".
- 
- ```bash
- git push production master
- git commit --allow-empty -m 'push to execute post-receive'
- git push production master
- ```
  
  ## Merge new-feature branch into master
  
