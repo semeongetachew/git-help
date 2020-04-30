@@ -156,7 +156,7 @@ git branch | grep -v "master\|develop" | xargs git branch -D
  
  ## Merge new-feature branch into master
  
- Merge branches
+ Merge  
 
 ```bash
 git checkout master
